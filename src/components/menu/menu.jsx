@@ -38,7 +38,7 @@ export default function Menu({ page }) {
               underline={page == "mission" ? "always" : "hover"}
               className="text-white"
             >
-              Home
+              Contact
             </Link>
           </div>
           <div className="flex justify-end gap-2">
