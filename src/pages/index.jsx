@@ -1,15 +1,11 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import Menu from '@/components/menu/menu';
-import Header from '@/components/header/header';
-
-const inter = Inter({ subsets: ['latin'] })
+import Menu from "@/components/menu";
 
 export default function Home() {
   return (
-    <div className="w-full h-screen bg-black">
-      <Menu page="home" />
-      <Header />
+    <div className="bg-black/90 w-full h-screen">
+      <div className="w-full h-full flex flex-col">
+        <Menu />
+      </div>
     </div>
   );
 }
