@@ -24,7 +24,7 @@ export default function Card({content}) {
     };
   }, []);
 
-  <Script>
+  <Script id="my-script">
     {`
         ${handleOnMouseMove.toString()}
     
