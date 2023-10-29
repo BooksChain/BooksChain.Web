@@ -3,8 +3,9 @@ import Button from "./button";
 import Link from "next/link";
 
 export default function Menu() {
+  //bg-[#141414]
   return (
-    <div className="flex flex-col bg-[#141414] shadow-[#202020] shadow-md">
+    <div className="flex flex-col shadow-[#202020] shadow-md">
       <div className="flex justify-between px-4 py-4 items-center">
         <div>
           <Link href="/" className="text-white text-2xl">
